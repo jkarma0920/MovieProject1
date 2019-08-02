@@ -1,4 +1,4 @@
-# Movie Project
+# Movie Analysis on Different Genres and Profitability
 Marco Santos, Jon Bebi, and Jay Kim
 
 Synopsis:
