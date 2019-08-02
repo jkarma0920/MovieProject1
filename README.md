@@ -6,7 +6,7 @@ Business strategies for Microsoft's prospective studio, given:
   * Industry Landscape
   * SWOT Analysis
   * Current Trends
-Findings evidenced by Graphs, Tables
+Findings evidenced by Graphs & Tables
 
 
 Data Science Tools Used:
