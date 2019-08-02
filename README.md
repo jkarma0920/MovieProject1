@@ -2,7 +2,7 @@
 Contributors: Marco Santos, Jon Bebi, and Jay Kim
 
 ## Task:
-Business strategies for a prospective film studio, given:
+Film ideas for a prospective movie studio, given:
  * Industry Landscape
  * SWOT Analysis
  * Current Trends
@@ -21,7 +21,7 @@ Websites Used:
  * IMDb (API): user ratings
  * The Numbers (webscraping): bankability of top industry figures
 
-## How a movies success is measured
+## How a movie's success is measured
 A films success is dependant on multiple factors:
  * User Reviews
  * Box Office Performance
@@ -37,3 +37,9 @@ A films success is dependant on multiple factors:
 These genres were found from BoxOfficeMojo sorted by quantity of movies.  The other two genres ahead of the ones selected were Foreign Language and Documentary which were eliminated based on lack of overall mainstream success.
 
 ## MySQL Database Schema with movies collected
+Collected 715 Movies from BoxOfficeMojo and here it is being displayed as a summary table.
+
+## Correlation between a Film's Profit and it's ratings
+![Cor](Images/profit_ratings_relation.png)
+
+A positive correlation is expected to have the scatter plot points steadily increasing from the left to right forming a gradual slope.  Instead we have what appears to be a nearly flat slope.  This displays no significant correlation between user reviews and box office revenue.  
