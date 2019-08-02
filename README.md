@@ -1,4 +1,4 @@
-# MovieProject1
+# Movie Project
 Marco Santos, Jon Bebi, and Jay Kim
 
 Synopsis:
