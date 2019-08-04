@@ -39,7 +39,7 @@ These genres were found from BoxOfficeMojo sorted by quantity of movies.  The ot
 
 ## MySQL Database schema with movies collected
 ![mainsqltable](Images/MainDB_Table_Head.png "Main SQL Table")
-Collected 715 movies from BoxOfficeMojo, the beginning of which is displayed as a summary table above.  These movies' release dates spanned from 1980 to the present, which were as far back as the data collected from BoxOfficeMojo would allow.  The selected attributes from each film were uploaded using Python's MySQLconnector and a sequence of necessary query commands.
+Collected 715 movies from BoxOfficeMojo, the beginning of which is displayed as a summary table above.  These movies' release dates spanned the years from 1980 (which was as far back as BoxOfficeMojo would allow) to the present.  The selected attributes from each film were scanned and uploaded using Python's MySQLconnector and a sequence of query commands.
 
 ## Data Collected and Visualized
 ![the-numbers-webscraping-slide](Images/The-Numbers-Webscrape.png "Webscraping example from Presentation")
