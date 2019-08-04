@@ -42,7 +42,7 @@ Collected 715 Movies from BoxOfficeMojo and here it is being displayed as a summ
 (Insert mysql html image here)
 
 ## Data Collected and Visualized
-The data gathered from both the-numbers.com and boxofficemojo.com were scraped using Python's Beautifulsoup library to parse through each website's HTML code.  An API key from OMDb, a third-party, through Python was used to gather the required user reviews from IMDb.com. 
+The data gathered from both the-numbers.com and boxofficemojo.com were scraped using Python's Beautifulsoup library to parse through each website's HTML code.  An API key from OMDb, a third-party, through Python was used to gather the required user reviews from IMDb.com. The data was then visualized into various graphs and charts using Python's Matplotlib library.
 
 ## Correlation between profit and ratings
 ![scatter](Images/profit_ratings_relation.png "Profit and ratings scatter plot")
