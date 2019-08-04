@@ -22,7 +22,7 @@ Websites Used:
  * The Numbers (webscraping): bankability of top industry figures
 
 ## How a movie's success is measured
-A films success is dependant on multiple factors:
+A film's success is dependant on multiple factors:
  * User Reviews
  * Box Office Performance
  * Returns relative to the budget
@@ -35,20 +35,22 @@ The following information presents discoveries showing which factor is most impo
 * Horror
 * Rom-Com
 
-These genres were found from BoxOfficeMojo sorted by quantity of movies.  The other two genres ahead of the ones selected were Foreign Language and Documentary which were eliminated based on lack of overall mainstream success.
+These genres were found from BoxOfficeMojo sorted by quantity of movies.  The other two genres ahead of those selected were Foreign Language and Documentary, both of which were eliminated based on lack of overall mainstream success.
 
 ## MySQL Database schema with movies collected
-Collected 715 Movies from BoxOfficeMojo and here it is being displayed as a summary table.  These movies were released beginning from 1980 to the present, which were as far back as the data collected from BoxOfficeMojo would allowed.  The selected attributes from each film were uploaded using Python's MySQLconnector and the necessary query commands.
-
 ![mainsqltable](Images/MainDB_Table_Head.png "Main SQL Table")
+Collected 715 movies from BoxOfficeMojo, the beginning of which is displayed as a summary table above.  These movies' release dates spanned from 1980 to the present, which were as far back as the data collected from BoxOfficeMojo would allow.  The selected attributes from each film were uploaded using Python's MySQLconnector and a sequence of necessary query commands.
 
 ## Data Collected and Visualized
+![the-numbers-webscraping-slide](Images/The-Numbers-Webscrape.png "Webscraping example from Presentation")
 The data gathered from both the-numbers.com and boxofficemojo.com were scraped using Python's Beautifulsoup library to parse through each website's HTML code.  An API key from OMDb, a third-party, through Python was used to gather the required user reviews from IMDb.com. The data was then visualized into various graphs and charts using Python's Matplotlib library.
 
 ## Correlation between profit and ratings
 ![scatter](Images/profit_ratings_relation.png "Profit and ratings scatter plot")
 
-A positive correlation is expected to have the scatter plot dots increasing from the left to right forming a gradual slope upwards. Based on the data the results appears to be a nearly flat slope.  This displays no significant correlation between user reviews and box office revenue.
+A positive correlation is expected with scatter plot markers increasing from the left to right, forming a gradual slope upwards. Based on the data, however, the results appears to be at a nearly-flat slope (above).  This demonstrates little to no significant correlation between user reviews and box office revenue.
+Adding the bankability metrics, however, adds further color to the relationship (below).  The Gay/Lesbian Genre nearly completely lacks presence in th top 50 star index, while the 3D category notably dominates, especially for big-budget blockbusters (like Avengers: Endgame in the upper-right).
+![scatter](Images/ScatterPlot-Cross-Relationships.png "Scatter Plot with Bankability Marker Sizes")
 
 ## Average budget and profit by genre
 ![bar](Images/budget_profit_by_genre.png "Average budget and profit bars")
