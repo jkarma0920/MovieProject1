@@ -40,7 +40,7 @@ These genres were found from BoxOfficeMojo sorted by quantity of movies.  The ot
 ## MySQL Database schema with movies collected
 Collected 715 Movies from BoxOfficeMojo and here it is being displayed as a summary table.  These movies were released beginning from 1980 to the present, which were as far back as the data collected from BoxOfficeMojo would allowed.  The selected attributes from each film were uploaded using Python's MySQLconnector and the necessary query commands.
 
-(Insert mysql html image here)
+![mainsqltable](Images/MainDB_Table_Head.png "Main SQL Table")
 
 ## Data Collected and Visualized
 The data gathered from both the-numbers.com and boxofficemojo.com were scraped using Python's Beautifulsoup library to parse through each website's HTML code.  An API key from OMDb, a third-party, through Python was used to gather the required user reviews from IMDb.com. The data was then visualized into various graphs and charts using Python's Matplotlib library.
