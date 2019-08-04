@@ -26,6 +26,7 @@ A films success is dependant on multiple factors:
  * User Reviews
  * Box Office Performance
  * Returns relative to the budget
+ 
 The following information presents discoveries showing which factor is most important when determining a film's profitability.
 ## Genres examined:
 * 3D
