@@ -1,5 +1,5 @@
 # Movie Analysis on Different Genres and Profitability
-Contributors: Jay Kim, Jon Bebi and Marco Santos
+Contributors: Jay Kim, Jon Bebi, and Marco Santos
 
 ## Task:
 Film ideas for a prospective movie studio, given:
