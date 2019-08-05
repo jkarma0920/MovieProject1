@@ -15,6 +15,7 @@ Data Science Tools Used:
  * MySQL
  * Beautiful Soup
  * Matplotlib
+ * Amazon Web Services
 
 Websites Used:
  * Box Office Mojo (webscraping): $ metrics
@@ -39,10 +40,12 @@ These genres were found from BoxOfficeMojo sorted by quantity of movies.  The ot
 
 ## MySQL Database schema with movies collected
 ![mainsqltable](Images/MainDB_Table_Head.png "Main SQL Table")
-Collected 715 movies from BoxOfficeMojo, the beginning of which is displayed as a summary table above.  These movies' release dates spanned the years from 1980 (which was as far back as BoxOfficeMojo would allow) to the present.  The selected attributes from each film were scanned and uploaded using Python's MySQLconnector and a sequence of query commands.
+Collected 715 movies from BoxOfficeMojo, the beginning of which is displayed as a summary table above.  These movies' release dates spanned the years from 1980 (which was as far back as BoxOfficeMojo would allow) to the present.  The selected attributes from each film were scanned and uploaded using Python's MySQLconnector and a sequence of query commands.  The data was hosted on Amazon Web Services: Relational Database Servers, DB instances.
+
+![the-numbers-webscraping-slide](Images/The-Numbers-Webscrape.png "Webscraping example from Presentation")
+
 
 ## Data Collected and Visualized
-![the-numbers-webscraping-slide](Images/The-Numbers-Webscrape.png "Webscraping example from Presentation")
 The data gathered from both the-numbers.com and boxofficemojo.com were scraped using Python's Beautifulsoup library to parse through each website's HTML code.  An API key from OMDb, a third-party, through Python was used to gather the required user reviews from IMDb.com. The data was then visualized into various graphs and charts using Python's Matplotlib library.
 
 ## Correlation between profit and ratings
