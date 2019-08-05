@@ -15,7 +15,7 @@ Data Science Tools Used:
  * MySQL
  * Beautiful Soup
  * Matplotlib
- * Amazon Web Services
+ * Amazon Web Services (RDS, DB instances)
 
 Websites Used:
  * Box Office Mojo (webscraping): $ metrics
