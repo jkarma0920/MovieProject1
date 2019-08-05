@@ -1,4 +1,4 @@
-# Movie Analysis on Different Genres and Profitability
+# Exploratory Data Analysis on Film Industry: Genres and Profitability
 Contributors: Jay Kim, Jon Bebi, and Marco Santos
 
 ## Task:
