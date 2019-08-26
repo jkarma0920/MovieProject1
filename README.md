@@ -3,30 +3,29 @@ Contributors: Jay Kim, Jon Bebi, and Marco Santos
 
 ## Task:
 Film ideas for a prospective movie studio, given:
- * Industry Landscape
- * SWOT Analysis
- * Current Trends
+* Industry Landscape
+* SWOT Analysis
+* Current Trends
 Findings evidenced by Graphs & Tables
 
 ## Applications Utilized:
 Data Science Tools Used:
- * GitHub
- * Jupyter Notebook (Python)
- * MySQL
- * Beautiful Soup
- * Matplotlib
- * Amazon Web Services (RDS, DB instances)
+* Amazon Web Services (RDS, DB instances)
+* Jupyter Notebook (Python)
+* MySQL
+* Beautiful Soup
+* Matplotlib
 
 Websites Used:
- * Box Office Mojo (webscraping): $ metrics
- * IMDb (API): user ratings
- * The Numbers (webscraping): bankability of top industry figures
+* Box Office Mojo (webscraping): $ metrics
+* IMDb (API): user ratings
+* The Numbers (webscraping): bankability of top industry figures
 
 ## How a movie's success is measured
 A film's success is dependant on multiple factors:
- * User Reviews
- * Box Office Performance
- * Returns relative to the budget
+* User Reviews
+* Box Office Performance
+* Returns relative to the budget
  
 The following information presents discoveries showing which factor is most important when determining a film's profitability.
 ## Genres examined:
