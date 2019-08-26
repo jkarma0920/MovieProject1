@@ -6,7 +6,7 @@ Film ideas for a prospective movie studio, given:
 * Industry Landscape
 * SWOT Analysis
 * Current Trends
-Findings evidenced by Graphs & Tables
+* Findings (Graphs & Tables)
 
 ## Applications Utilized:
 Data Science Tools Used:
