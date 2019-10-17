@@ -22,7 +22,7 @@ Websites Used:
 * The Numbers (webscraping): bankability of top industry figures
 
 ## How a movie's success is measured
-A film's success is dependant on multiple factors:
+A film's success is dependent on multiple factors:
 * User Reviews
 * Box Office Performance
 * Returns relative to the budget
